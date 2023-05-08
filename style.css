@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body > div {
+  background-color: white;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+}
+body * {
+  color: black;
+}
+#in,
+#out {
+  display: none;
+  color: rgb(0, 143, 95);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#in.active,
+#out.active {
+  display: block;
+}
